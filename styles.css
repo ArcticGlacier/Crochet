@@ -1,0 +1,260 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1.5% 15% 1.5% 15%;
+  position: sticky;
+  top: 0px;
+  background-color:rgb(1, 18, 28,0.38) ;
+
+  font-weight: 200;
+  font-size: 100%;
+  z-index: 6;
+}
+
+.navbar a:link,
+a:visited {
+  color: rgb(242, 236, 245);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: #FF006B;
+}
+
+.navbar a.currentPage {
+  color: #FF006B;
+}
+
+footer {
+  background-color:#334553;
+  color: rgb(242, 236, 245);
+  padding: 10px;
+  text-align: center;
+}
+
+.homepage {
+  background-image: url("Media/handcrochet.jpg");
+  background-size: cover;
+
+}
+
+#homeheader {
+  color: #FF6392;
+
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 500%;
+  font-weight: 600;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+
+#homeinfo {
+  color: rgb(242, 236, 245);
+  font-weight: 300;
+  text-align: center;
+  font-size: 100%;
+  padding-right: 28%;
+  padding-left: 28%;
+  margin-bottom: 50px;
+}
+
+#startButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#startButton button {
+  color: rgb(247, 224, 230);
+  background-color: #FF006B;
+  border: none;
+  padding: 30px 55px;
+  font-size: 150%;
+  transition: 0.5s;
+}
+
+#startButton button:hover {
+  color: #FF006B;
+  background-color: rgb(247, 224, 230);
+  cursor: pointer;
+  box-shadow: -5px 10px;
+}
+
+
+
+.toolspage{
+  background-image: url("Media/hooks.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#01121C;
+}
+
+#toolsheader{
+  color:#FF6392;
+  text-align: center;
+  font-size: 500%;
+  font-weight: 600;
+  margin-top:20%;
+}
+
+.toolscontent{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin:25% 0% 10% 0%;
+}
+
+.toolSubHeader{
+  color:#FF006B;
+  text-align:left;
+  font-size: 150%;
+  font-weight:200;
+}
+
+#toolsP1{
+  color:rgb(242, 236, 245);
+  font-size: 100%;
+  padding-right: 4%;
+  padding-left:18%;
+  width:200vw;
+
+}
+
+#toolsP2{
+  color:rgb(242, 236, 245);
+  font-size: 100%;
+  padding-left:4%;
+  padding-right:18%;
+  width: 200vw;
+}
+
+.stitchespage{
+  background-image: url("Media/chainstitch.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.stitchBox{
+  background-color: rgb(4, 15, 28,0.55);
+  color:white;
+
+  padding:5% 5% 5% 5%;
+  margin-left:30%;
+  margin-right: 30%;
+  margin-top:10%;
+
+  text-align: center;
+  font-size: 125%;
+  transition:1s;
+  
+}
+
+.stitchBox a, a:visited{
+  text-decoration: none;
+  transition:0.5s;
+  scroll-behavior: smooth;
+  color:white;
+}
+
+.stitchBox a:hover{
+  color:#FF6392;
+}
+
+.videos{
+  margin:10%;
+  text-align: center;
+}
+
+iframe{
+  border:  rgb(4, 15, 28,0.55);
+  width:40vw;
+  height:47vh;
+  margin-top:20%;
+}
+
+.patternspage{
+  background-image: url("Media/blanket.jpg");
+
+  background-size: cover;
+}
+
+#patternheader{
+  color:#FF6392;
+  font-size:500%;
+  font-weight:600;
+  text-align: center;
+  padding-left:15%;
+  padding-right:15%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td{
+  width:10px;
+  text-align: center;
+  padding-bottom:125px;
+  
+}
+
+.iconTable a{
+  color:rgb(242, 236, 245);
+  text-align: center;
+  font-size: 125%;
+  transition: 0.5s;
+  text-decoration: none;
+
+}
+
+.iconTable a:hover{
+  color:#FF006B;
+  cursor:pointer;
+}
+
+.iconTable img{
+  height: 250px;
+  width: 240px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.contactpage{
+  background-image: url("Media/crochetingtogether.jpg");
+  background-size:cover;
+}
+
+.contactBox{
+  background-color: rgb(255, 99, 146,0.44);
+  color:white;
+
+  padding:2.5% 5% 2.5% 5%;
+  margin-left:30%;
+  margin-right: 30%;
+
+  text-align: center;
+  font-size: 125%;
+}
